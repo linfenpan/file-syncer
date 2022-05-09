@@ -1,0 +1,18 @@
+{
+  "name": "lfp-sync",
+  "version": "1.0.0",
+  "description": "因为经常因为权限问题，导致内容无法同步，所以特定写了一个 sync 模块，用来把文件同步到远程，或者把远程文件，下载到本地。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "co": "4.6.0",
+    "fs-extra": "10.1.0",
+    "micromatch": "4.0.5",
+    "ws": "8.5.0"
+  }
+}
