@@ -16,7 +16,7 @@ class Client {
     }
     this.url = url;
     this.cwd = cwd || process.cwd();
-    this.ignoreList = [
+    this.ignoreList = ignore || [
       'node_modules',
       '.git',
     ]; // 忽略的列表，支持 glob 表达式
