@@ -7,14 +7,14 @@ const client = new Client({
 });
 client.ignore('ignore/*.txt');
 
-// // 上传全部
-// client.upload({ dirname: '.' }).on('end', function() {
-//   console.log('上传结束后，要求服务器重启');
-//   client.command('restart');
-// });
+// 上传全部
+client.upload({ dirname: '.' }).on('end', function() {
+  console.log('上传结束后，要求服务器重启');
+  client.command('restart');
+});
 
-// 仅上传 child 目录
-client.upload({ dirname: './child' })
+// // 仅上传 child 目录
+// client.upload({ dirname: './child' })
 
 // // 下载文件
 // client.download({
