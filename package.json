@@ -1,6 +1,6 @@
 {
   "name": "lfp-file-syncer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "通过websocket，把文件上传到远端，或下载到本地",
   "main": "index.js",
   "scripts": {
